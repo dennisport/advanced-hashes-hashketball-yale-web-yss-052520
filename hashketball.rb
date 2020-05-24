@@ -156,7 +156,7 @@ else return game_hash[:away][:colors]
 end
 end
 
-def team_names(teams)
+def team_names
   new_array = [] 
     new_array << game_hash[:home]
     binding.pry
