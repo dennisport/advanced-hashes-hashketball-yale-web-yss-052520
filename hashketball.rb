@@ -160,6 +160,7 @@ def team_names(game_)
   new_array = [] 
     new_array << game_hash[:home]
     binding.pry
+    
 end
 
 it 'returns the team names' do
