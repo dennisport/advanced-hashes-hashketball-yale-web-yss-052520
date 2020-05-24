@@ -193,7 +193,7 @@ def big_shoe_rebounds
       if player[:shoe] > min_shoe_size
         min_shoe_size = player[:shoe]
       end
-      binding.pry
     end
   end
+  binding.pry
 end
