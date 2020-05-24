@@ -195,6 +195,7 @@ def big_shoe_rebounds
       end
     end
   end
+  p min_shoe_size
   game_hash.each do |team, team_data| 
     team_data[:players].each do |player|
       if player[:shoe] = min_shoe_size
