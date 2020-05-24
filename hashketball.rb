@@ -172,6 +172,7 @@ game_hash.each do |team, team_data|
  new_array << player[:number]
 end
 end
+end
 new_array
 end
 
