@@ -156,9 +156,18 @@ else return game_hash[:away][:colors]
 end
 end
 
-def team_names(game_name)
+def team_names(game_)
+  new_array = [] 
+     game_hash[:home]
 end
 
+it 'returns the team names' do
+      teams = team_names
+      expect(teams.size).to eq(2)
+      teams.each do |name|
+        expect(["Brooklyn Nets", "Charlotte Hornets"]).to include(name)
+      end
+    end
 
 
 def player_numbers(team_name)
