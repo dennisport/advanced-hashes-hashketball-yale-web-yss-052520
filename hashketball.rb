@@ -188,5 +188,5 @@ end
 
 def big_shoe_rebounds 
   min_shoe_size = 10
-  
+  game_hash.each do |team, team_data| 
 end
