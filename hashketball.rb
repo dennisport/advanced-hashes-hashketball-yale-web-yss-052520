@@ -159,12 +159,8 @@ end
 def team_names
   new_array = [] 
     new_array << game_hash[:home]
-    binding.pry
-      teams = team_names
-      expect(teams.size).to eq(2)
-      teams.each do |name|
-        expect(["Brooklyn Nets", "Charlotte Hornets"]).to include(name)
-      end
+    new_array << game_hash[:away]
+  end
 end
 
 
