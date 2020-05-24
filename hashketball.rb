@@ -160,7 +160,7 @@ def team_names
   new_array = [] 
     new_array << game_hash[:home][:team_name]
     new_array << game_hash[:away][:team_name]
-binding.pry
+new_array
 end
 
 
