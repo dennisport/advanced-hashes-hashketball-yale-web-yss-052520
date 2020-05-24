@@ -158,7 +158,8 @@ end
 
 def team_names(game_)
   new_array = [] 
-     game_hash[:home]
+    new_array << game_hash[:home]
+    binding.pry
 end
 
 it 'returns the team names' do
