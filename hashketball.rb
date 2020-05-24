@@ -160,16 +160,12 @@ def team_names(game_)
   new_array = [] 
     new_array << game_hash[:home]
     binding.pry
-    
-end
-
-it 'returns the team names' do
       teams = team_names
       expect(teams.size).to eq(2)
       teams.each do |name|
         expect(["Brooklyn Nets", "Charlotte Hornets"]).to include(name)
       end
-    end
+end
 
 
 def player_numbers(team_name)
